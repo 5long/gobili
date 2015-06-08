@@ -1,6 +1,6 @@
 # GoBili.js
 
-不停地点击http://live.bilibili.com/[B站直播]的开播按钮。
+不停地点击 http://live.bilibili.com/[B站直播] 的开播按钮。
 
 ## 动机
 
@@ -22,8 +22,8 @@
 
 * 安装一个可以管理用户脚本的浏览器扩展
 
-  + Chrome 浏览器用户推荐 http://tampermonkey.net/[Tampermonkey]
-  + Firefox 浏览器用户推荐
+  ** Chrome 浏览器用户推荐 http://tampermonkey.net/[Tampermonkey]
+  ** Firefox 浏览器用户推荐
   https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/[Greasemonkey]
 
 * 通过 greasyfork.org 安装此脚本的稳定发布版：
