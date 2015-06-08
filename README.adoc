@@ -1,0 +1,45 @@
+# GoBili.js
+
+不停地点击http://live.bilibili.com/[B站直播]的开播按钮。
+
+## 动机
+
+目前B站直播有 300 个直播间的上限，
+作为普通UP主，晚间想要准时开播的话有两个解决办法：
+
+* 不停地点开播按钮，直到抢到坑位为止。
+* 一直开着电脑，用静态图片+文字公告占着直播坑位。
+  等到自己真正开播的时候再正常推流。
+
+如果所有人都使用后一种方法，那么B站将无坑可播。
+所以我自己使用了前一种方法，
+我也希望更多的UP主来使用前一种方法，
+所以才有了这个脚本。
+
+## 安装
+
+* 首先你需要一个现代的浏览器，比如 Chrome, Firefox 等。
+
+* 安装一个可以管理用户脚本的浏览器扩展
+
+  + Chrome 浏览器用户推荐 http://tampermonkey.net/[Tampermonkey]
+  + Firefox 浏览器用户推荐
+  https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/[Greasemonkey]
+
+* 通过 greasyfork.org 安装此脚本的稳定发布版：
+  https://greasyfork.org/en/scripts/10318-gobili
+
+## 使用
+
+安装成功后，在你自己的直播间点击“准备中”按钮，
+这个脚本就会每 2 秒钟检查一次是否成功开播。
+如果没能开播，那么会帮你自动点击一次这个按钮。
+如果已经成功开播，那么自动检查将会停止，并且弹窗提示你
+“抢到了, 赶紧开播”。
+
+目前就这么多。
+
+## 版权许可
+
+本软件作者放弃知识产权，已进入公有领域。
+具体声明见文件 https://github.com/5long/gobili/blob/master/UNLICENSE[UNLICENSE]

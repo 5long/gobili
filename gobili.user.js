@@ -4,6 +4,8 @@
 // @version      0.1.0
 // @description  Keep trying go Live on live.bilibili.com
 // @author       Whyme Lyu
+// @supportURL   callme5long@gmail.com
+// @license      https://github.com/5long/gobili/blob/master/UNLICENSE
 // @match        http://live.bilibili.com/*
 // @grant        none
 // @run-at       document-idle
